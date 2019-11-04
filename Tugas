@@ -9,7 +9,7 @@ int main () {
     cin >> bilangan [i];
   }
     for ( n=0; n<5; ++n ) {
-    hasil+ = bilangan[n];
+    hasil+= bilangan[n];
     cout << endl;
     cout << "Hasil ke- " << n << " adalah = " << hasil << endl;
   }
