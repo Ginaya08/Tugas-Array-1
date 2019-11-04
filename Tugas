@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main () {
+  int bilangan[5];
+  int n, hasil = 0;
+  int i;
+  for ( i=0; i<5; i++ ) {
+    cout << "Input Bilangan ke- " << (i+1) << " = ";
+    cin >> bilangan [i];
+  }
+    for ( n=0; n<5; ++n ) {
+    hasil+ = bilangan[n];
+    cout << endl;
+    cout << "Hasil ke- " << n << " adalah = " << hasil << endl;
+  }
+  cout << endl << "Jumlah Bilangan = " << hasil << endl;
+  return 0;
+}
+   
